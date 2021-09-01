@@ -15,7 +15,7 @@ fn reverse(pair: (i32, bool)) -> (bool, i32) {
 }
 fn main() {
     // Statements here are executed when the compiled binary is called
-	let mut var = 1.0;
+	let mut var = 1.5;
 	var = 3.0;
 	let tup = (3,true);
 	println!("{}",reverse(tup));
